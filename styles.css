@@ -33,4 +33,22 @@ body {
   height: 100px;
   background-color: #f8fbf7;
   font-family: 'Lobster', cursive;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.homestuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.welcome {
+  background: white;
+  width: 25%;
+  padding: 40px;
+  font-family: 'Lobster', cursive;
 }
