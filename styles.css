@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/ridiculous.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.3em;
+}
+
+.nav-item {
+  font-family: 'Lobster', cursive;
+  font-size: 1.4em;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  height: 100px;
+  background-color: #f8fbf7;
+  font-family: 'Lobster', cursive;
+}
