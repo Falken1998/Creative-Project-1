@@ -21,20 +21,19 @@ html {
 }
 .golf {
     height: 500px;
-    width: 1200px;
+    width: 60%;
     padding-top: 50px;
     margin: 0 auto;
     font-family: 'Lobster', cursive;
 }
 .golf-content {
     float: right;
-    margin-left: 40px;
+    padding-right: 40px;
     width: 600px;
 }
 .golf-image {
     float: right;
-    width: 400px;
-    margin-top: 100px;
+    width: 40%;
 }
 .golf-image > img {
     max-width: 100%;
