@@ -53,11 +53,6 @@ body {
   font-family: 'Lobster', cursive;
 }
 
-.activitesinfo {
-  display: flex;
-  flex-grow: 1;
-}
-
 .login {
   background-color: #ede492;
   border: none;

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: none !important;
+}
+html {
+    height: 100%;
+}
+
+.image-container{
+    height: 600px;
+    background-image: url("images/ridiculous.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.activities {
+    height: 1200px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pool {
+  display: flex;
+  justify-content: space-between;
+  border-style: groove;
+  width: 75%;
+  padding: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.spa {
+  display: flex;
+  justify-content: space-between;
+  border-style: groove;
+  width: 75%;
+  padding: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.fitness {
+  display: flex;
+  justify-content: space-between;
+  border-style: groove;
+  width: 75%;
+  padding: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.descript {
+  padding-left: 50px;
+}
+
+.descriptoff {
+  padding-right: 50px;
+}
