@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: none !important;
+}
+html {
+    height: 100%;
+}
+
+.image-container{
+    height: 500px;
+    background-image: url("images/ridiculous.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dining {
+    height: 800px;
+    background-color: aqua;
+}
