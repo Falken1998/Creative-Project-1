@@ -63,3 +63,13 @@ html {
 .descriptoff {
   padding-right: 50px;
 }
+
+ul {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+li {
+    margin-left: 20px;
+}
