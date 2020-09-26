@@ -11,10 +11,13 @@ html {
 }
 
 .image-container{
-    height: 500px;
+    height: 600px;
     background-image: url("images/ridiculous.jpg");
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
 }
 
 .dining {
