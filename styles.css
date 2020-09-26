@@ -52,3 +52,15 @@ body {
   padding: 40px;
   font-family: 'Lobster', cursive;
 }
+
+.activitesinfo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.login {
+  background-color: #ede492;
+  border: none;
+  height: 40px;
+  width: 200px;
+}
