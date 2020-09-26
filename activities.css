@@ -64,12 +64,12 @@ html {
   padding-right: 50px;
 }
 
-ul {
-    list-style-type: circle;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.activities > * > ul {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-li {
-    margin-left: 20px;
+.activities > * > li {
+  margin-left: 20px;
 }

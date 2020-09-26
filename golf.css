@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: none !important;
+}
+html {
+    height: 100%;
+}
+
+.image-container{
+    height: 600px;
+    background-image: url("images/ridiculous.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+.golf {
+    height: 500px;
+    width: 60%;
+    padding-top: 50px;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+.golf-content {
+    float: right;
+    padding-right: 40px;
+    width: 600px;
+}
+.golf-image {
+    float: right;
+    width: 40%;
+}
+.golf-image > img {
+    max-width: 100%;
+}
+.golf-content > h1 {
+    margin-bottom: 60px;
+}
