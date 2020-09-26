@@ -19,45 +19,26 @@ html {
     min-height: 100%;
     flex-direction: column;
 }
-
-.dining {
+.golf {
     height: 500px;
     width: 1200px;
     padding-top: 50px;
     margin: 0 auto;
     font-family: 'Lobster', cursive;
 }
-.info {
-    float: left;
+.golf-content {
+    float: right;
     margin-left: 40px;
     width: 600px;
 }
-.info > h1 {
-    margin-bottom: 60px;
-}
-.info > ul {
-    list-style-type: none;
-    color: grey;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.info > ul > li {
-    margin-left: 20px;
-}
-.subnote {
-    color: grey;
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 10px;
-}
-.dining-image {
-    float: left;
+.golf-image {
+    float: right;
     width: 400px;
     margin-top: 100px;
 }
-.dining-image > img {
+.golf-image > img {
     max-width: 100%;
+}
+.golf-content > h1 {
+    margin-bottom: 60px;
 }
